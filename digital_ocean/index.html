@@ -1,32 +1,89 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Digital Ocean</title>
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+        integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+        crossorigin="anonymous" />
+
+    <!-- Framework + Foglio di stile -->
+    <link rel="stylesheet" href="./css/framework.css">
+    <link rel="stylesheet" href="./css/style.css">
+
 </head>
+
 <body>
+
+
     <header>
         <nav>
-            <ul class="nav_links">
-                <li><a href="#">Products</a></li>
-                <li><a href="#">Costumers</a></li>
-                <li><a href="#">Community</a></li>
-                <li><a href="#">Pricing</a></li>
-            </ul>
-        </nav>
-        <div class="hero_image">
+            <div class="container">
+                <div class="row flex spacing">
+                    <div class="col-lg-2">
+                        <a href="#">
+                            <img class="logo" src="./css/digital_ocean/img/logo.png" alt="logodigitalocean">
+                        </a>
+                    </div>
+                    <div class="menu_centrale col-lg-6">
+                        <a href="#">Products <i class="fas fa-chevron-down"></i></a>
+                        <a href="#">Costumers</a>
+                        <a href="#">Community <i class="fas fa-chevron-down"></i></a>
+                        <a href="#">Pricing</a>
+                    </div>
+                    <div class="right_menu col-lg-4">
+                        <div class="list_none secondary_links">
+                            <a href="#">Docs</a>
+                            <a href="#">Support <i class="fas fa-chevron-down"></i></a>
+                            <a href="#">Login</a>
+                            <a href="#" class="btn btn_outline">Sign Up</a>
+                        </div>
 
+                    </div>
+                </div>
+        </nav>
+        <div class="wrapper bg_secondblue">
+            <div class="container">
+                <div class="row flex">
+                    <div class="col-lg-7">
+                        <h1>Lorem, ipsum dolor.</h1>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vitae quidem repudiandae ducimus ipsa ex excepturi?</p>
+                    </div>
+                    <div class="col-lg-5">
+                        sign up with google
+                    </div>
+                </div>
+            </div>
         </div>
+        
     </header>
 
-    <main>
 
+    <main>
+        <section class="innovative"></section>
+        <!-- /.innovative -->
+        <section class="deployscale"></section>
+        <!-- /.deployscale -->
+        <section class="designfordevs"></section>
+        <!-- /.designfordevs -->
+        <section class="businessfeatures"></section>
+        <!-- /.businessfeatures -->
+        <section class="customerservice"></section>
+        <!-- /.customerservice -->
+        <section class="devteams"></section>
+        <!-- /.devteams -->
+        <section class="getstarted"></section>
+        <!-- /.getstarted -->
     </main>
 
     <footer>
 
     </footer>
 </body>
+
 </html>
