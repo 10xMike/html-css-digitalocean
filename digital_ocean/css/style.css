@@ -8,7 +8,6 @@
 
 body{
     font-family: 'Roboto', sans-serif;
-    line-height: 1.6;
 }
 .logo{
     height: 35px;
@@ -40,7 +39,6 @@ nav>.container{
     background-image: url('./digital_ocean/img/bg-banner-home.jpg');
     background-size: cover;
     background-repeat: no-repeat;
-    height: 500px;
 }
 .bg_grey{
     background-color: #596989;
@@ -58,4 +56,17 @@ span.subtitle{
     text-align: center;
     margin: 10px 0;
     padding: 5px;
+}
+
+.central_menu a, .right_menu a{
+    color: #374a71;
+    text-decoration: none;
+    margin: 5px;
+}
+
+a.btn{
+    border: 1px solid #599dff;
+    border-radius: 5px;
+    padding: 5px 15px;
+    color: #599dff;
 }
