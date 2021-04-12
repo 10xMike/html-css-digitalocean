@@ -23,6 +23,7 @@
 
     <header>
         <nav>
+            <!-- Navbar container -->
             <div class="container">
                 <div class="row flex spacing">
                     <div class="col-lg-2">
@@ -43,19 +44,30 @@
                             <a href="#">Login</a>
                             <a href="#" class="btn btn_outline">Sign Up</a>
                         </div>
-
                     </div>
                 </div>
+            </div>
+            <!-- /Navbar container -->
         </nav>
-        <div class="wrapper bg_secondblue">
-            <div class="container dbg">
-                <div class="row flex spacing">
-                    <div class="col-lg-7">
+        <div class="bg_secondblue">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-7 p25">
                         <h1>The simplest cloud platform for developers & teams</h1>
                         <p>Deploy, manage, and scale cloud applications faster and more efficiently on DigitalOcean. We make managing infrastracture easy for teams and businesses, whether you're running one virtual machine or ten thousand.</p>
                     </div>
                     <div class="col-lg-5">
-                        sign up with google
+                        <div class="card">
+                            <h3>Deploy your app in seconds.</h3>
+                            <h3>Get started now.</h3>
+                            <form action="#">
+                                <input type="email" id="email" name="email" placeholder="Email" required><br>
+                                <input type="text" id="password" name="password" placeholder="Password"><br>
+                                <div class="account">Create an account</div>
+                                <div class="signup">Sign up with Google</div>
+                              </form>
+                              <div class="terms">By signing up you agree to the<a href="#">Terms of Service.</a></div> 
+                        </div>
                     </div>
                 </div>
             </div>
