@@ -67,7 +67,15 @@ nav>.container{
 .text-right{
     text-align: right;
 }
-
+.googlebtn{
+    position: relative;
+}
+.googlelogo{
+    position: absolute;
+    width: 30px;
+    top: 0;
+    left: 10%;
+}
 
 a.btn{
     border: 1px solid #599dff;
