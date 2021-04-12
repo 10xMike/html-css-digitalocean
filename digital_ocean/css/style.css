@@ -49,13 +49,12 @@ nav>.container{
 
 h4{
     text-align: center;
-    margin: 10px 0;
-    padding: 5px;
+    padding: 15px 0;
+    color: #596989;
 }
-span.subtitle{
-    text-align: center;
-    margin: 10px 0;
-    padding: 5px;
+.subtitle{
+    padding: 15px;
+    color: #599dff;
 }
 
 .central_menu a, .right_menu a{
@@ -70,3 +69,14 @@ a.btn{
     padding: 5px 15px;
     color: #599dff;
 }
+
+.innovative{
+    text-align: center;
+}
+
+/* DEBUG RULES */
+.dbg{
+    height: 300px;
+    width: 100%;
+}
+
