@@ -50,8 +50,7 @@ nav>.container{
     background: linear-gradient(180deg, #0042BB 0%, #00209B 100%);
 }
 
-h4{
-    text-align: center;
+.innovative .container h4{
     padding: 15px 0;
     color: #596989;
 }
@@ -63,8 +62,12 @@ h4{
 .central_menu a, .right_menu a{
     color: #374a71;
     text-decoration: none;
-    margin: 5px;
+    margin-left: 5px;
 }
+.text-right{
+    text-align: right;
+}
+
 
 a.btn{
     border: 1px solid #599dff;
@@ -149,7 +152,15 @@ input {
 .businessfeatures{
     text-align: center;
 }
-
+.footer{
+    padding-top: 50px;
+    color: white;
+    background-color: #031C4E;
+}
+.footer li{
+    list-style: none;
+    padding: 4px;
+}
 
 /* DEBUG RULES */
 .dbg{
