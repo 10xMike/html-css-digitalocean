@@ -46,6 +46,9 @@ nav>.container{
 .bg_whiteish{
     background-color: #f3f5f9;
 }
+.bg_actualblue{
+    background: linear-gradient(180deg, #0042BB 0%, #00209B 100%);
+}
 
 h4{
     text-align: center;
@@ -120,6 +123,33 @@ input {
 .terms{
     font-size: 0.7rem;;
 }
+.getstarted{
+    display: flex;
+    flex-direction: column;
+    padding: 100px 0;
+}
+.getstarted h1{
+    text-align: center;
+    color: white;
+    font-size: 2rem;
+}
+.accountstarted{
+    border: 1px solid black;
+    border-radius: 3px;
+    width: 185px;
+    padding: 10px;
+    background-color: white;
+    margin: 15px auto;
+    text-align: center;
+}
+
+.designfordevs{
+    text-align: center;
+}
+.businessfeatures{
+    text-align: center;
+}
+
 
 /* DEBUG RULES */
 .dbg{
@@ -127,3 +157,15 @@ input {
     width: 100%;
 }
 
+/* MEDIA QUERIES */
+@media screen and (max-width:767px){
+    .central_menu, .right_menu {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 992px) and (min-width: 767px){
+    .central_menu, .right_menu {
+        display: none;
+    }
+}
