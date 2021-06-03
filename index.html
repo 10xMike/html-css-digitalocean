@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Digital Ocean Homepage</title>
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+        integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+    <!-- Foglio di stile CSS -->
+    <link rel="stylesheet" href="./assets/style.css">
+</head>
+
+<body>
+
+    <div class="container parent" id="top">
+        <div class="row box">
+            <div class="col">
+                <img class="logo" src="./assets/img/logo.png" alt="">
+            </div>
+            <div class="col-5">
+                <span class="mr-1">Products <i class="fas fa-angle-down"></i></span>
+                <span class="mr-1">Costumers</span>
+                <span class="mr-1">Community <i class="fas fa-angle-down"></i></span>
+                <span class="mr-1">Pricing</span>
+            </div>
+            <div class="col">
+                <span class="mr-1">Docs</span>
+                <span class="mr-1">Support <i class="fas fa-angle-down"></i></span>
+                <span class="mr-1">Login</span>
+                <button>Sign Up</button>
+            </div>
+        </div>
+    </div>
+
+    <main>
+        <div class="row jumbo">
+            <div class="container d-flex">
+                <div class="col-6 text-white">
+                    <h1>The simplest cloud platform for developers &amp; teams</h1>
+                    <span>Deploy, manage, and scale cloud applications faster and more efficiently on DigitalOcean. We
+                        make managing infrastructure easy for teams and businesses, whether you're running one virtual
+                        machine or ten thousand.</span>
+                </div>
+                <div class="col-6">
+                    <div class="card">
+                        <div class="container text-center">
+                            <form>
+                                <h3>Deploy your app in seconds.</h3>
+                                <h3>Get started now.</h3>
+                                <input type="email" pattern="[^ @]*@[^ @]*" placeholder="Email">
+                                <br>
+                                <input type="text" id="lname" name="lname" value="" placeholder="Password"><br>
+                            </form>
+                            <button id="blue_submit">
+                                <span>Create your account</span>
+                            </button><br>
+                            <button id="google_submit"> 
+                                <img class="google"
+                                    src="https://img.icons8.com/clouds/100/000000/google-logo.png"/>
+                                    Sign up with Google
+                                </button><br>
+                            <small>By signing up you agree to the<a href="#">Terms of Service</a></small>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row lightgrey parent">
+            <div class="container text-center box">
+                <h5>INNOVATIVE BUSINESSES TRUST DIGITALOCEAN</h5>
+                <div>
+                    <img src="./assets/img/docker.svg" alt="">
+                    <img src="./assets/img/gitlab.svg" alt="">
+                    <img src="./assets/img/slack.svg" alt="">
+                    <img src="./assets/img/hashicorp.svg" alt="">
+                    <img src="./assets/img/wework.svg" alt="">
+                    <img src="./assets/img/splunk.svg" alt="">
+                </div>
+                <small class="bluelining">View customers stories <i class="fas fa-angle-right"></i></small>
+            </div>
+        </div>
+
+        <!-- .businessfeatures -->
+        <section class="businessfeatures parent">
+            <div class="container box text-center">
+                <h2>The features your business needs</h2>
+                <div class="row text-left">
+                    <div class="col-lg-4">
+                        <img src="./assets/img/pred-pricing.svg" alt="predictable pricing">
+                        <h5>Predictable pricing</h5>
+                        <small>Leave complex pricing structures behind. Always know what you'll pay per month with a
+                            flat, industry-leading pricing structure.</small><br>
+                        <small class="bluelining">Pricing <i class="fas fa-angle-right"></i></small>
+                    </div>
+                    <div class="col-lg-4">
+                        <img src="./assets/img/world-class.svg" alt="world-class">
+                        <h5>World-class service</h5>
+                        <small>Free round-the-clock technical support for all customers. You'll feel the
+                            love.</small><br>
+                        <small class="bluelining">Support <i class="fas fa-angle-right"></i></small>
+                    </div>
+                    <div class="col-lg-4">
+                        <img src="./assets/img/reliable-platform.svg" alt="reliable platform">
+                        <h5>Reliable platform</h5>
+                        <small>More than 100,000 developer teams worldwide trust DigitalOcean to support their business
+                            with a 99,99% uptime SLA for all services.</small><br>
+                        <small class="bluelining">Security <i class="fas fa-angle-right"></i></small>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- /.businessfeatures -->
+
+        <!-- .getstarted-->
+        <section class="getstarted bg_actualblue parent">
+            <div class="box">
+                <h1>Get started now.</h1>
+                <div class="accountstarted">Create your account</div>
+            </div>
+        </section>
+        <!-- /.getstarted -->
+    </main>
+    <footer>
+        <div class="container parent">
+            <div class="row box">
+                <div class="col-lg-3">
+                    <img src="./assets/img/logo-small.svg" alt=""><br>
+                    <small>&copy; 2018 DigitalOcean, LLC. All rights reserved.</small><br>
+                    <small>Proudly made in NY</small>
+                    <div>
+                        <img class="simpleicon" src="./assets/img/twitter.svg" alt="">
+                        <img class="simpleicon" src="./assets/img/facebook.svg" alt="">
+                        <img class="simpleicon" src="./assets/img/instagram.svg" alt="">
+                        <img class="simpleicon" src="./assets/img/youtube.svg" alt="">
+                        <img class="simpleicon" src="./assets/img/linkedin.svg" alt="">
+                    </div>
+                </div>
+                <div class="col-lg-2">
+                    <h5>Company</h5>
+                    <ul>
+                        <li>About</li>
+                        <li>Leadership</li>
+                        <li>Link</li>
+                        <li>Blog</li>
+                        <li>Careers</li>
+                        <li>Partner Network</li>
+                        <li>Referral Program</li>
+                        <li>Events</li>
+                        <li>Press</li>
+                        <li>Legal & Security</li>
+                    </ul>
+                </div>
+                <div class="col-lg-2">
+                    <h5>Products</h5>
+                    <ul>
+                        <li>Droplets</li>
+                        <li>Spaces</li>
+                        <li>Kubernetes</li>
+                        <li>Load Balancers</li>
+                        <li>Block Storage</li>
+                        <li>Tools & Integrations</li>
+                        <li>One-Click Apps</li>
+                        <li>API</li>
+                        <li>Pricing</li>
+                        <li>Documentation</li>
+                        <li>Release Notes</li>
+                    </ul>
+                </div>
+                <div class="col-lg-2">
+                    <h5>Community</h5>
+                    <ul>
+                        <li>Tutorials</li>
+                        <li>Meetups</li>
+                        <li>Q&A</li>
+                        <li>Write for Donations</li>
+                        <li>Droplets for Demos</li>
+                        <li>Hatch</li>
+                        <li>Shop Swag</li>
+                        <li>Research Program</li>
+                        <li>Current Research</li>
+                        <li>Open Source</li>
+                    </ul>
+                </div>
+                <div class="col-lg-3">
+                    <h5>Support</h5>
+                    <ul>
+                        <li>Contact support</li>
+                        <li>FAQ</li>
+                        <li>Network Status</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+    </section>
+
+</body>
+
+</html>
