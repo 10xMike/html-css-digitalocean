@@ -1,0 +1,126 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-size: 1rem;
+  line-height: 1.6;
+}
+a {
+  padding: 0.5rem;
+}
+#top {
+  font-size: 0.9rem;
+  min-height: 60px;
+}
+button {
+  list-style: none;
+  border: 1px solid #599dff;
+  border-radius: 3px;
+  background-color: white;
+  color: #599dff;
+  padding: 3px 3px;
+}
+.jumbo{
+  background-image: url('./img/bg-banner-home.jpg');
+  min-height: 350px;
+  display: grid;
+  place-content: center;
+}
+.card{
+  width: fit-content;
+  display: flex;
+  flex-direction: column;
+  border: 1px navy solid;
+}
+#blue_submit{
+  width: 100%;
+  background-color: #599dff;
+  color: white;
+  margin: 0.3em 0;
+  padding: 0.4em 0;
+  cursor: pointer;
+}
+.google{
+  width: 2.5em;
+}
+#google_submit{
+  width: 100%;
+  margin: 0.3em 0;
+  padding: 0;
+  cursor: pointer;
+}
+.lightgrey {
+  background-color: #f3f5f9;
+  min-height: 150px;
+}
+.parent {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.box {
+  flex: 1 1 400px;
+  margin: 20px;
+}
+h5 {
+  margin: 1rem 0;
+}
+.businessfeatures {
+  text-align: center;
+  min-height: 300px;
+}
+.bluelining {
+  color: #599dff;
+}
+.h2,
+h2 {
+  font-size: 2rem;
+  margin: 1.5rem 0;
+}
+.getstarted {
+  /* display: flex;
+    flex-direction: column;
+    padding: 100px 0; */
+  display: grid;
+  place-content: center;
+  min-height: 300px;
+  background: linear-gradient(180deg, #0041bb 0%, #001f9a 100%);
+}
+.getstarted h1 {
+  text-align: center;
+  color: white;
+  font-size: 2rem;
+}
+.accountstarted {
+  border: 1px solid white;
+  border-radius: 3px;
+  width: 185px;
+  padding: 10px;
+  background-color: white;
+  margin: 15px auto;
+  text-align: center;
+  color: #004aff;
+  font-weight: 600;
+  font-size: 110%;
+}
+.logo {
+  width: 10rem;
+}
+.simpleicon {
+  width: 20px;
+  filter: invert(100%) sepia(21%) saturate(9%) hue-rotate(304deg)
+    brightness(84%) contrast(98%);
+  margin: 0.1rem;
+}
+footer {
+  padding-top: 50px;
+  color: white;
+  background-color: #031c4e;
+}
+footer li {
+  list-style: none;
+  font-size: 14px;
+}
