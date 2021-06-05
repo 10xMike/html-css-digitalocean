@@ -21,7 +21,7 @@ button {
   border-radius: 3px;
   background-color: white;
   color: #599dff;
-  padding: 3px 3px;
+  padding: 3px;
 }
 .jumbo{
   background-image: url('./img/bg-banner-home.jpg');
